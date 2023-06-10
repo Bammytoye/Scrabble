@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: rgb(8, 124, 124);
+}
+
+.MainScrabble{
+    float: left;
+}
+
+.scrabble{
+    width: 960px;
+    height: 960px;
+    margin: 20px;
+    border: 5px solid #ffffff;
+    margin-left: 200px;
+    background: #8ccf96;
+}
+
+.tiles {
+    float: left;
+    font-weight:800;
+    width: 60px;
+    height: 60px;
+    margin: 1.6px;
+    border-color: #d40808;
+    background: #1cd30b;
+    font-size: 15px;
+    text-align: center;
+    display: table;
+}
+
+#triple1 {
+    background-color: red;
+}
+
+#double2 {
+    background-color: #CA9F2C;
+}
+
+#triple2 {
+    background-color: blue;
+}
+#double1 {
+    background-color: #4EB0F3;
+}
